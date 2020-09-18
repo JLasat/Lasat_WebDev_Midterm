@@ -1,0 +1,44 @@
+container {
+        max-width: 800px; 
+        margin: auto; 
+        font-family: verdana;
+
+      }
+
+      body{
+        background-image: url("https://jlasat.github.io/Lasat_WebDev_Midterm/calendar.jpg");
+      }
+
+
+      .month {
+        text-allign: center;
+        background-color: #87303c;
+        letter-spacing: 5px; 
+        padding: 1px; 
+      }
+
+      table, th, td {
+        width: 100%; 
+        table-layout:fixed; 
+        text-allign: center; 
+        font-size: 17px; 
+        border-collapse: collapse; 
+        color:white;
+
+      }
+
+      tr, td {
+        padding: 10px;
+      }
+
+      /background calendar color/
+      td {
+        background: #0f1923;
+
+      }
+h1{
+  text-align: center;
+   background-color: #87303c;
+        color: white; 
+        padding: 4px; 
+}
